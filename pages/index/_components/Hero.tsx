@@ -24,7 +24,10 @@ export default () => {
           </span>
         </div>
         <div mt-2>
-          <span>I like working on interesting projects.</span>
+          <span>
+            Software developer with a love for problem-solving and building
+            user-friendly apps.
+          </span>
         </div>
       </div>
       <Socials />
