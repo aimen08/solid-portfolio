@@ -1,0 +1,20 @@
+# Domain Redirects
+# https://aymenhamza.net/* https://aymenhamza.com/:splat 301!
+
+
+# Social Links
+/github https://github.com/aimen08
+/gh https://github.com/aimen08
+/twitter https://twitter.com/AimenMT2
+/instagram https://www.instagram.com/dzpszied/
+/blog https://blog.aymenhamza.com/
+
+# Projects
+/alg https://www.algerialogos.com/
+/pazar https://play.google.com/store/apps/details?id=com.mt.pazar
+/tg https://t.me/SnapChatSave_bot
+/poly https://www.polyglothouse.com/
+
+# Github Repo Jump
+/gh/* https://github.com/aimen08/:splat
+
