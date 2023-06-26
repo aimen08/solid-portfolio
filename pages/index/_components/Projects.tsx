@@ -4,6 +4,12 @@ import ProjectItem from "./ProjectItem";
 export default () => {
   const projectLists = [
     {
+      name: "MediaBot",
+      desc: "Telegram bot for downloading media.",
+      link: "https://t.me/Media_r49_bot",
+      icon: "i-fluent-emoji-flat-clapper-board",
+    },
+    {
       name: "AlgeriaLogos",
       desc: "pixel perfect Algerian company logos",
       link: "https://www.algerialogos.com/",
