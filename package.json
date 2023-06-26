@@ -19,9 +19,9 @@
     "vite-plugin-solid": "^2.4.0"
   },
   "dependencies": {
-    "@unocss/reset": "^0.47.5",
-    "dayjs": "^1.11.7",
-    "solid-js": "^1.6.3",
+    "@unocss/reset": "0.47.5",
+    "dayjs": "1.11.7",
+    "solid-js": "1.6.3",
     "vite-plugin-ssr": "0.4.54"
   }
 }
