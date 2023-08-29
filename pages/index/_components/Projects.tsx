@@ -4,16 +4,46 @@ import ProjectItem from "./ProjectItem";
 export default () => {
   const projectLists = [
     {
+      name: "Wechalet ",
+      desc: "WeChalet connects you with unique homes, condos and cottages for rent in nature.",
+      link: "https://wechalet.com/",
+      icon: "i-fluent-emoji-flat-houses",
+    },
+    {
+      name: "Voice AI Generator ",
+      desc: "Telegram bot for generating Voice of famous singers using AI.",
+      link: "https://t.me/AiarabBot",
+      icon: "i-fluent-emoji-flat-microphone",
+    },
+    {
+      name: "QrCode AI Generator ",
+      desc: "Telegram bot for generating Qr code with AI.",
+      link: "https://t.me/QRcodeAIbot",
+      icon: "i-fluent-emoji-flat-gem-stone",
+    },
+    {
       name: "MediaBot",
       desc: "Telegram bot for downloading media.",
       link: "https://t.me/Media_r49_bot",
       icon: "i-fluent-emoji-flat-clapper-board",
     },
     {
+      name: "Phone Lookup Bot",
+      desc: "Telegram bot for looking up phone numbers.",
+      link: "https://t.me/number_r49_Bot",
+      icon: "i-fluent-emoji-flat-mobile-phone",
+    },
+    {
       name: "AlgeriaLogos",
       desc: "pixel perfect Algerian company logos",
       link: "https://www.algerialogos.com/",
       icon: "i-fluent-emoji-flat-confetti-ball",
+    },
+    {
+      name: "False10",
+      desc: "a community website where my client shares tools and bots.",
+      link: "https://www.false.ae/",
+      icon: "i-fluent-emoji-flat-toolbox",
     },
     {
       name: "Pazar",
@@ -24,7 +54,7 @@ export default () => {
     {
       name: "Polyglot house",
       desc: "private school website, made with NextJs",
-      link: "https://www.polyglothouse.com/",
+      link: "https://polyglot-website-mcb1wnftd-aimen08.vercel.app/",
       icon: "i-fluent-emoji-flat-microscope",
     },
     {

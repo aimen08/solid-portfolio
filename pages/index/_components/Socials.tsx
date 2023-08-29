@@ -57,9 +57,15 @@ export default () => {
     },
     {
       text: "",
-      link: "https://www.instagram.com/aimenmt/",
+      link: "https://www.instagram.com/aymenmt77/",
       icon: "i-fa-brands-instagram",
       class: "hover:bg-gradient-to-r from-[#fd5949] to-[#d6249f]",
+    },
+    {
+      text: "",
+      link: "https://www.linkedin.com/in/aimen-hamza/",
+      icon: "i-fa-brands-linkedin",
+      class: "hover:bg-[#0077b5]",
     },
   ];
 
