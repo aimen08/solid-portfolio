@@ -14,29 +14,33 @@ export default () => {
       desc: "Telegram bot for generating Voice of famous singers using AI.",
       link: "https://t.me/AiarabBot",
       icon: "i-fluent-emoji-flat-microphone",
+      users: "+100K User"
     },
     {
       name: "QrCode AI Generator ",
       desc: "Telegram bot for generating Qr code with AI.",
       link: "https://t.me/QRcodeAIbot",
       icon: "i-fluent-emoji-flat-gem-stone",
+      users: "+8K Users"
     },
     {
       name: "MediaBot",
       desc: "Telegram bot for downloading media.",
       link: "https://t.me/Media_r49_bot",
       icon: "i-fluent-emoji-flat-clapper-board",
+      users: "+120K Users"
     },
     {
       name: "Phone Lookup Bot",
       desc: "Telegram bot for looking up phone numbers.",
       link: "https://t.me/number_r49_Bot",
       icon: "i-fluent-emoji-flat-mobile-phone",
+      users: "+770K Users"
     },
     {
       name: "AlgeriaLogos",
       desc: "pixel perfect Algerian company logos",
-      link: "https://www.algerialogos.com/",
+      link: "https://keen-bartik-f9d7d0.netlify.app/",
       icon: "i-fluent-emoji-flat-confetti-ball",
     },
     {
@@ -62,6 +66,7 @@ export default () => {
       desc: "the bot fetches stories of any Snapchat user",
       link: "https://t.me/SnapChatSave_bot",
       icon: "i-fluent-emoji-flat-robot",
+      users: "+250K Users"
     },
   ];
   const openLink = () => {

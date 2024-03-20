@@ -4,6 +4,7 @@ import Hero from "./_components/Hero";
 import Projects from "./_components/Projects";
 import Posts from "./_components/Posts";
 import Footer from "./_components/Footer";
+import Videos from "./_components/Videos";
 
 const documentProps = {
   title: "Aymen",
@@ -20,6 +21,7 @@ const Page: Component = () => {
         data-token="p.eyJ1IjogImI3ZDI0MmIwLWRmOTctNDA2ZC04Y2ZmLTAzYTAzZjlhYzFmYiIsICJpZCI6ICI4Y2VkZTYyZi04ZDMxLTQzMWQtYTJjNy0xNDhhZDNmYTE1ZTMifQ.CGsn6MmRmNfRcI3a6aC3kW80AUm7-SUrQed5_GHOzGI"
       />
       <Hero />
+      <Videos />
       <Projects />
       <Posts />
       <Footer />
