@@ -14,7 +14,7 @@ export default () => {
       desc: "Telegram bot for generating Voice of famous singers using AI.",
       link: "https://t.me/AiarabBot",
       icon: "i-fluent-emoji-flat-microphone",
-      users: "+100K User"
+      users: "+100K Users"
     },
     {
       name: "QrCode AI Generator ",
