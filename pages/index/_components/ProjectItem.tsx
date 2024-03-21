@@ -26,7 +26,7 @@ export default (props: Props) => {
         </div>
       </div>
       {data.users &&
-        <div class="flex justify-center items-center absolute right-2 rounded-md w-24 text-sm h-5 bg-red-800/70">
+        <div class="flex justify-center items-center absolute right-2 rounded-md w-24 text-sm h-5 bg-red-400 text-white dark:bg-red-800/70">
           {data.users}
         </div>
       }
