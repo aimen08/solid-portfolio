@@ -21,8 +21,8 @@ const Page: Component = () => {
         data-token="p.eyJ1IjogImI3ZDI0MmIwLWRmOTctNDA2ZC04Y2ZmLTAzYTAzZjlhYzFmYiIsICJpZCI6ICI4Y2VkZTYyZi04ZDMxLTQzMWQtYTJjNy0xNDhhZDNmYTE1ZTMifQ.CGsn6MmRmNfRcI3a6aC3kW80AUm7-SUrQed5_GHOzGI"
       />
       <Hero />
-      <Videos />
       <Projects />
+      <Videos />
       <Posts />
       <Footer />
     </main>
