@@ -4,10 +4,35 @@ import ProjectItem from "./ProjectItem";
 export default () => {
   const projectLists = [
     {
+      name: "Tote&Carry",
+      desc: "Develop and maintain Shopify store that offers a wide range of products.",
+      link: "https://www.totencarry.com/",
+      icon: "i-fluent-emoji-flat-handbag",
+    },
+    {
+      name: "Rusty's Off-Road",
+      desc: "Maintain and develop new features for Rusty's Off-Road Shopify store.",
+      link: "https://www.rustysoffroad.com/",
+      icon: "i-fluent-emoji-flat-automobile",
+    },
+    {
+      name: "Chitchat",
+      desc: "A discord bot to chat with strangers from all over the world!",
+      link: "https://www.chitchat.gg/",
+      icon: "i-fluent-emoji-flat-person-beard-medium-light",
+    },
+    {
       name: "Wechalet ",
       desc: "WeChalet connects you with unique homes, condos and cottages for rent in nature.",
       link: "https://wechalet.com/",
       icon: "i-fluent-emoji-flat-houses",
+    },
+    {
+      name: "Crypto Signal and Trading Bot",
+      desc: "Crypto trading bot with signals and AI and abilty to trade on Binance.",
+      link: "https://t.me/Trade_Wise_bot",
+      icon: "i-fluent-emoji-flat-heavy-dollar-sign",
+      users: "+4K Users"
     },
     {
       name: "Voice AI Generator ",
