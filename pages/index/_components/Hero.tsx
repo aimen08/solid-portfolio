@@ -16,10 +16,10 @@ export default () => {
             Currently working at{" "}
             <a
               target="_blank"
-              href="https://www.linkedin.com/company/brainiac-sarl/mycompany/"
-              class="underline cursor-pointer hover:color-[#21afc5]"
+              href="https://www.linkedin.com/company/thetrybeagency"
+              class="underline cursor-pointer hover:color-[#FF5317]"
             >
-              Brainiac SARL.
+              The Trybe
             </a>
           </span>
         </div>
