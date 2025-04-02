@@ -5,3 +5,5 @@ Icons are from [Remix Icon](https://github.com/Remix-Design/RemixIcon) and [Flue
 Source Codes are under [MIT license](https://github.com/aimen08/solid-portfolio/blob/main/LICENSE).
 
 Articles and descriptions are under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+
+By Aymen
