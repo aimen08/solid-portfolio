@@ -11,7 +11,7 @@ export default () => {
         <div>
           <span>Full Stack developer / Software engineer.</span>
         </div>
-        <div mt-2 all:transition-400>
+        {/* <div mt-2 all:transition-400>
           <span>
             Currently working at{" "}
             <a
@@ -22,7 +22,7 @@ export default () => {
               The Trybe
             </a>
           </span>
-        </div>
+        </div> */}
         <div mt-2>
           <span>
             Software developer with a love for problem-solving and building
