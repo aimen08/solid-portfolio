@@ -27,6 +27,20 @@ export default defineConfig({
           },
         }),
       ],
+      theme: {
+        colors: {
+          bg: '#0a0a0a',
+          surface: '#141414',
+          textPrimary: '#f5f5f5',
+          muted: '#888888',
+          stroke: '#1f1f1f',
+          accent: '#f5f5f5'
+        },
+        fontFamily: {
+          body: ['Inter', 'sans-serif'],
+          display: ['Instrument Serif', 'serif']
+        }
+      }
     }),
     ssr({
       prerender: true,

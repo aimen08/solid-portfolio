@@ -29,7 +29,10 @@ const render = (pageContext: PageContext) => {
         <meta name="twitter:creator" content="@AimenMT2" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://aymenhamza.com/" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <title>${title}</title>
         ${dangerouslySkipEscape(generateHydrationScript())}
       </head>

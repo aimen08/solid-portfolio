@@ -13,7 +13,7 @@ export default (props: Props) => {
   const { data } = props;
   return (
     <a
-      class="px-4 py-3 relative rounded-md bg-gray-50 transition-colors decoration-none hover:bg-gray-100 dark:bg-gray-50/10 dark:hover:bg-gray-50/20"
+      class="px-5 py-4 relative rounded-2xl bg-surface border border-stroke transition-colors decoration-none hover:bg-stroke/50 group"
       href={data.link}
       target="_blank"
     >
@@ -22,23 +22,23 @@ export default (props: Props) => {
           <div class={data.icon} />
         </div>
         <div flex-1>
-          <div font-medium leading-relaxed>
+          <div class="font-display italic text-2xl text-textPrimary leading-relaxed group-hover:translate-x-1 transition-transform">
             {data.name}
           </div>
-          <div op-50 font-normal text-sm>
+          <div class="text-muted font-normal text-sm mt-1">
             {data.desc}
           </div>
         </div>
       </div>
       {data.users && (
-        <div class="flex justify-center items-center absolute right-2 rounded-md w-20 text-[12px] h-5 bg-red-400 text-white dark:bg-red-800/70">
+        <div class="flex justify-center items-center absolute right-3 bottom-3 rounded-md px-2 text-[12px] h-5 bg-textPrimary text-bg">
           {data.users}
         </div>
       )}
       {data.stack && (
-        <div class="flex justify-center items-center absolute right-2 -top-3 gap-1">
+        <div class="flex justify-center items-center absolute right-3 -top-3 gap-1">
           {data.stack.map((item) => (
-            <div class="flex items-center rounded-full bg-gray-50 dark:bg-gray-50/10 p-[4px]">
+            <div class="flex items-center rounded-full bg-surface border border-stroke p-[4px]">
               <img class="w-4 h-4" src={`/images/${item}.svg`} />
             </div>
           ))}

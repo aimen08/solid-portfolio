@@ -21,17 +21,17 @@ export default () => {
   };
   return (
     <>
-      <h2 class="flex items-center mt-14 mb-4 font-semibold text-3xl">
-        <span flex-1 class="title">
+      <div class="flex items-center mt-14 mb-4 font-semibold text-3xl">
+        <span flex-1 class="text-4xl md:text-5xl font-display italic text-textPrimary">
           Videos
         </span>
         <div
           onClick={openLink}
-          class="op-50 ml-2 hover:op-100 transition-opacity cursor-pointer"
+          class="op-50 ml-2 hover:op-100 transition-opacity cursor-pointer text-textPrimary"
         >
           <div class="m-2 i-ri-arrow-right-up-line"></div>
         </div>
-      </h2>
+      </div>
       <div class="flex flex-col sm:flex-row gap-2">
         <Index each={videos}>
           {(item) => <VideoItem data={item()} />}
