@@ -49,6 +49,35 @@ export default () => {
       ],
     },
     {
+      category: "Landing Pages",
+      items: [
+        {
+          name: "Bodega Offer Sale",
+          desc: "Conversion-focused sale landing page for Tote&Carry's Bodega collection.",
+          link: "https://www.totencarry.com/pages/bodega-offer-sale",
+          icon: "i-fluent-emoji-flat-shopping-bags",
+          showcase: "/images/totencarry-bodega.jpeg",
+          stack: ["shopify"],
+        },
+        {
+          name: "Ice Energy",
+          desc: "Product launch landing page for the Ice Energy collection.",
+          link: "https://www.totencarry.com/pages/ice-energy-landing-page",
+          icon: "i-fluent-emoji-flat-ice",
+          showcase: "/images/totencarry-ice.jpeg",
+          stack: ["shopify"],
+        },
+        {
+          name: "Color Energy",
+          desc: "Vibrant landing page showcasing the Color Energy product line.",
+          link: "https://www.totencarry.com/pages/color-energy-landing-page",
+          icon: "i-fluent-emoji-flat-artist-palette",
+          showcase: "/images/totencarry-color.jpeg",
+          stack: ["shopify"],
+        },
+      ],
+    },
+    {
       category: "Bots",
       items: [
         {
