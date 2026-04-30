@@ -2,6 +2,7 @@ import { createResource, Index, Suspense } from "solid-js";
 import dayjs from "dayjs";
 import { getLatestPosts } from "../api";
 import type { PostMeta } from "../api";
+import SectionHeader from "./SectionHeader";
 
 interface PostProps {
   data: PostMeta;
@@ -36,27 +37,19 @@ const PostItem = (props: PostProps) => {
 
 export default () => {
   const [postLists] = createResource(getLatestPosts);
-  const openLink = () => {
-    window.open("https://blog.aymenhamza.com", "_blank");
-  };
   return (
-    <>
-      <div class="flex items-center mt-14 mb-4 font-semibold text-3xl">
-        <span flex-1 class="text-4xl md:text-5xl font-display italic text-textPrimary">
-          Latest Posts
-        </span>
-        <div
-          onClick={openLink}
-          class="op-50 ml-2 hover:op-100 transition-opacity cursor-pointer text-textPrimary"
-        >
-          <div class="m-2 i-ri-arrow-right-up-line"></div>
-        </div>
-      </div>
+    <section>
+      <SectionHeader
+        number="03"
+        title="From the"
+        italic="Blog"
+        href="https://blog.aymenhamza.com"
+      />
       <div class="grid grid-cols-1 -mx-2">
         <Suspense fallback={<div class="p-4 text-muted">Loading posts...</div>}>
           <Index each={postLists()}>{(item) => <PostItem data={item()} />}</Index>
         </Suspense>
       </div>
-    </>
+    </section>
   );
 };

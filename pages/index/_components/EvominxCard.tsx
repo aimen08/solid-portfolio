@@ -3,7 +3,7 @@ export default () => {
     <a
       href="https://evominx.aymenhamza.com/"
       target="_blank"
-      class="group block rounded-3xl bg-surface border border-stroke overflow-hidden transition-all decoration-none hover:border-stroke/80 mt-12 mb-16 relative"
+      class="group block rounded-3xl bg-surface border border-stroke overflow-hidden transition-all decoration-none hover:border-stroke/80 mt-16 relative"
     >
       <div class="absolute inset-0 w-full h-full opacity-40 group-hover:opacity-60 transition-opacity duration-700">
          <img src="/images/earth.jpeg" alt="Background" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
