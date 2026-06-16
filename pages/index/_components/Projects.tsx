@@ -62,7 +62,7 @@ export default () => {
         {
           name: "LiveBox",
           desc: "Native IPTV player for Live TV, Movies & Series — powered by mpv, supports Xtream Codes and M3U playlists.",
-          link: "https://github.com/aimen08/livebox",
+          link: "https://livebox-app.netlify.app/",
           icon: "i-fluent-emoji-flat-television",
           iconImg: "/images/livebox-icon.png",
           showcase: "/images/livebox.jpeg",

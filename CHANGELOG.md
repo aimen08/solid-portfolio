@@ -8,3 +8,6 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 - Elala project card under "Shopify Stores" with homepage screenshot showcase
 - LiveBox project in a new "Desktop Apps" category, with app icon and home-screen UI screenshot
+
+### Changed
+- LiveBox card now links to the marketing site (livebox-app.netlify.app)
