@@ -37,6 +37,7 @@ export default () => {
           desc: "Develop and maintain Shopify store that offers a wide range of products.",
           link: "https://www.totencarry.com/",
           icon: "i-fluent-emoji-flat-handbag",
+          showcase: "/images/totencarry-home.jpeg",
           stack: ["shopify"],
         },
         {

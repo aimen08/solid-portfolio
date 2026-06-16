@@ -12,3 +12,4 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changed
 - LiveBox card now links to the marketing site (livebox-app.netlify.app)
 - Elala card now links to elalausa.com
+- Tote&Carry card now shows a homepage screenshot
