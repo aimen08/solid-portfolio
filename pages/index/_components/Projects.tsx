@@ -49,7 +49,7 @@ export default () => {
         {
           name: "Elala",
           desc: "Shopify store for Elala — rideable electric luggage, FAA & TSA approved.",
-          link: "https://elala.com/",
+          link: "https://elalausa.com/",
           icon: "i-fluent-emoji-flat-luggage",
           showcase: "/images/elala.jpeg",
           stack: ["shopify"],
