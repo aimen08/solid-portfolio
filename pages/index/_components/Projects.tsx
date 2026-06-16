@@ -45,6 +45,7 @@ export default () => {
           desc: "Maintain and develop new features for Rusty's Off-Road Shopify store.",
           link: "https://www.rustysoffroad.com/",
           icon: "i-fluent-emoji-flat-automobile",
+          showcase: "/images/rustys-home.jpeg",
           stack: ["shopify"],
         },
         {
