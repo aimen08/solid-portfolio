@@ -46,6 +46,28 @@ export default () => {
           icon: "i-fluent-emoji-flat-automobile",
           stack: ["shopify"],
         },
+        {
+          name: "Elala",
+          desc: "Shopify store for Elala — rideable electric luggage, FAA & TSA approved.",
+          link: "https://elala.com/",
+          icon: "i-fluent-emoji-flat-luggage",
+          showcase: "/images/elala.jpeg",
+          stack: ["shopify"],
+        },
+      ],
+    },
+    {
+      category: "Desktop Apps",
+      items: [
+        {
+          name: "LiveBox",
+          desc: "Native IPTV player for Live TV, Movies & Series — powered by mpv, supports Xtream Codes and M3U playlists.",
+          link: "https://github.com/aimen08/livebox",
+          icon: "i-fluent-emoji-flat-television",
+          iconImg: "/images/livebox-icon.png",
+          showcase: "/images/livebox.jpeg",
+          stack: ["typescript", "react"],
+        },
       ],
     },
     {
