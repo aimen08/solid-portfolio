@@ -8,7 +8,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 - CharmZone, CreatorHub360 and ROTO-Q 360 cards under "Shopify Stores", with homepage screenshots
 - New "Shopify Apps & Themes" category: ReportIQ, Formhold, Merchx and EcomElixir's Elixir Theme, with screenshots
-- Noty (with app icon and screenshot) and Classic Duel (Yu-Gi-Oh! fan game) under "Desktop Apps"
+- Noty (with app icon and screenshot) and Legacy of the Twin Masters (Yu-Gi-Oh! fan game, linked to gghub.space/classic-duel) with screenshot under "Desktop Apps"
 - Jouvence Care and YINN Design cards under "Websites", with homepage screenshots
 
 ## 2026-06-16

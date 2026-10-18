@@ -131,10 +131,11 @@ export default () => {
           showcase: "/images/noty.jpeg",
         },
         {
-          name: "Classic Duel",
-          desc: "Classic-era Yu-Gi-Oh! (GOAT format) duel fan game — rules engine with chains, CPU opponent, deck builder and booster packs. Lua + Defold.",
-          link: "https://github.com/aimen08/classic-duel-releases",
+          name: "Legacy of the Twin Masters",
+          desc: "Free Yu-Gi-Oh! fan duel game — 3,076 classic cards, 139 monsters in 3D, story rivals and online play. Built with Lua + Defold.",
+          link: "https://gghub.space/classic-duel/",
           icon: "i-fluent-emoji-flat-flower-playing-cards",
+          showcase: "/images/classicduel.jpeg",
         },
         {
           name: "LiveBox",
