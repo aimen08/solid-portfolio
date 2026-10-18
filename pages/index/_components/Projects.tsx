@@ -33,6 +33,30 @@ export default () => {
       category: "Shopify Stores",
       items: [
         {
+          name: "CharmZone",
+          desc: "Shopify storefront for CharmZone — Korean skincare since 1966, built on the Pitch theme.",
+          link: "https://www.charmzoneglobal.com/",
+          icon: "i-fluent-emoji-flat-lotus",
+          showcase: "/images/charmzone.jpeg",
+          stack: ["shopify"],
+        },
+        {
+          name: "CreatorHub360",
+          desc: "Platform connecting brands, creators and agencies — custom Shopify theme with Tailwind CSS.",
+          link: "https://creatorhub360.com/",
+          icon: "i-fluent-emoji-flat-sparkles",
+          showcase: "/images/creatorhub.jpeg",
+          stack: ["shopify", "tailwind"],
+        },
+        {
+          name: "ROTO-Q 360",
+          desc: "Shopify store for ROTO-Q 360, the cordless self-rotating rotisserie — built on Horizon.",
+          link: "https://rotoq360.com/",
+          icon: "i-fluent-emoji-flat-poultry-leg",
+          showcase: "/images/rotoq.jpeg",
+          stack: ["shopify"],
+        },
+        {
           name: "Tote&Carry",
           desc: "Develop and maintain Shopify store that offers a wide range of products.",
           link: "https://www.totencarry.com/",
@@ -59,8 +83,59 @@ export default () => {
       ],
     },
     {
+      category: "Shopify Apps & Themes",
+      items: [
+        {
+          name: "ReportIQ",
+          desc: "Describe a report in plain language, get a live shareable Shopify dashboard — AI report builder, Excel export, scheduled delivery.",
+          link: "https://apps.shopify.com/reportiq-1",
+          icon: "i-fluent-emoji-flat-bar-chart",
+          showcase: "/images/reportiq.jpeg",
+          stack: ["shopify", "typescript", "react", "postgresql"],
+        },
+        {
+          name: "Formhold",
+          desc: "Shopify app that holds storefront form submissions — the theme owns the schema, no form builder needed.",
+          link: "https://apps.shopify.com/formhold",
+          icon: "i-fluent-emoji-flat-clipboard",
+          showcase: "/images/formhold.jpeg",
+          stack: ["shopify", "typescript", "react", "postgresql"],
+        },
+        {
+          name: "Merchx",
+          desc: "Clothing design studio for Shopify merchants — pick a blank, design with AI artwork, sync to your store.",
+          link: "https://merchx-app.vercel.app/",
+          icon: "i-fluent-emoji-flat-t-shirt",
+          showcase: "/images/merchx.jpeg",
+          stack: ["nextjs", "supabase", "shopify", "typescript"],
+        },
+        {
+          name: "Elixir Theme",
+          desc: "Development work on EcomElixir's Elixir — a conversion-focused Shopify theme used by 5,000+ stores.",
+          link: "https://ecomelixir.com/",
+          icon: "i-fluent-emoji-flat-test-tube",
+          showcase: "/images/ecomelixir.jpeg",
+          stack: ["shopify", "javascript"],
+        },
+      ],
+    },
+    {
       category: "Desktop Apps",
       items: [
+        {
+          name: "Noty",
+          desc: "Sticky notes that live at the edge of your screen — native macOS app in SwiftUI and AppKit.",
+          link: "https://noty-sepia.vercel.app/",
+          icon: "i-fluent-emoji-flat-spiral-notepad",
+          iconImg: "/images/noty-icon.png",
+          showcase: "/images/noty.jpeg",
+        },
+        {
+          name: "Classic Duel",
+          desc: "Classic-era Yu-Gi-Oh! (GOAT format) duel fan game — rules engine with chains, CPU opponent, deck builder and booster packs. Lua + Defold.",
+          link: "https://github.com/aimen08/classic-duel-releases",
+          icon: "i-fluent-emoji-flat-flower-playing-cards",
+        },
         {
           name: "LiveBox",
           desc: "Native IPTV player for Live TV, Movies & Series — powered by mpv, supports Xtream Codes and M3U playlists.",
@@ -164,6 +239,22 @@ export default () => {
     {
       category: "Websites",
       items: [
+        {
+          name: "Jouvence Care",
+          desc: "Marketing site and member onboarding for clinician-designed longevity protocols — localized in 4 languages.",
+          link: "https://www.jouvencecare.com/",
+          icon: "i-fluent-emoji-flat-herb",
+          showcase: "/images/jouvence.jpeg",
+          stack: ["nextjs", "tailwind", "supabase", "typescript"],
+        },
+        {
+          name: "YINN Design",
+          desc: "Bilingual website for YINN, an interior design studio in Paris and New York.",
+          link: "https://www.yinndesign.com/",
+          icon: "i-fluent-emoji-flat-couch-and-lamp",
+          showcase: "/images/yinn.jpeg",
+          stack: ["nextjs", "typescript"],
+        },
         {
           name: "Wechalet",
           desc: "WeChalet connects you with unique homes, condos and cottages for rent in nature.",
