@@ -3,6 +3,11 @@
 All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 2026-10-27
+
+### Added
+- Tabby (⌥Tab app switcher for macOS) under "Desktop Apps", with app icon and website screenshot
+
 ## 2026-10-18
 
 ### Added

@@ -131,6 +131,14 @@ export default () => {
           showcase: "/images/noty.jpeg",
         },
         {
+          name: "Tabby",
+          desc: "Minimal ⌥Tab app switcher for macOS — live window previews, menu bar only, with signed auto-updates.",
+          link: "https://aimen08.github.io/tabby/",
+          icon: "i-fluent-emoji-flat-cat-face",
+          iconImg: "/images/tabby-icon.png",
+          showcase: "/images/tabby.jpeg",
+        },
+        {
           name: "Legacy of the Twin Masters",
           desc: "Free Yu-Gi-Oh! fan duel game — 3,076 classic cards, 139 monsters in 3D, story rivals and online play. Built with Lua + Defold.",
           link: "https://gghub.space/classic-duel/",
